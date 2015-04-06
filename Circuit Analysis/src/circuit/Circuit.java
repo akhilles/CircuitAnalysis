@@ -3,7 +3,6 @@ package circuit;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.ArrayList;
-
 import wolframalpha.WolframAlpha;
 import elements.*;
 
