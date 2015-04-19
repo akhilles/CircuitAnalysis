@@ -12,7 +12,7 @@ public class CircuitTools {
 	public static Circuit readFile(){
 		System.out.print("Enter file name: ");
 		String fileName = stdin.nextLine();
-		String fileLocation = "C:\\Users\\Akhil\\workspace\\Circuit Analysis\\Circuits\\" + fileName;
+		String fileLocation = "C:\\Users\\Akhil\\workspace\\circuitAnalysis\\circuits\\" + fileName;
 		if (!fileLocation.contains(".circuit"))
 			fileLocation += ".circuit";
 		try {
