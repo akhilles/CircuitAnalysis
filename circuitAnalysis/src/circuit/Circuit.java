@@ -55,7 +55,8 @@ public class Circuit {
 	}
 	
 	public void setGroundNode(){
-		voltageSources.get(0).left.setNodeVoltage(0);
+		//voltageSources.get(0).left.setNodeVoltage(0);
+		getNode('A').setNodeVoltage(0);
 	}
 	
 	private void analyzeVoltageSources(){
